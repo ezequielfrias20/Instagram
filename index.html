@@ -1,0 +1,326 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Instagram</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="./style.css" type="text/css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/1ebe2caf91.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <!----------------------------------Navbar--------------------------------------------------->
+    <header>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-12">
+                    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top d-flex justify-content-around ">
+                        <div class="col-sm-4">                 
+                            <a class="navbar-brand font-inst" href="#"><i class="fab fa-instagram"></i>        Instagram</a>
+                            <button class="navbar-toggler" type="button" data-toggle="collapse"
+                                data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                                aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                        </div>
+                        
+                        <div class="col-sm-4 d-flex justify-content-center">
+                            <div class="modal fade" id="miModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            
+                                                <label for="exampleFormControlTextarea1"></label>
+                                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                                       
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                            
+                                        </div>
+                                        <div class="modal-body">
+                                            Texto del modal
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <button type="button" class="btn btn-success" data-toggle="modal" data-target="#miModal">Create a new post</button>
+                            <a class="nav-link dropdown-toggle color-settings" href="#" id="navbarDropdown" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <i class="fas fa-cog"></i>
+                            </a>
+                            <div class="dropdown-menu " aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="#">Action</a>
+                                <a class="dropdown-item" href="#">Another action</a>
+                                <a class="dropdown-item" href="#">Another action</a>
+                                <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="#">Log Out</a>
+                                </div>
+                            </div>
+                        </div>                   
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!------------------------------------end Navbar-------------------------------------------------------------->
+
+    <!---------------------------------------Buttons--------------------------------------------------------------->
+
+<div class="container-fluid">
+    <div class="row ">
+        <div class="col-sm-12 d-flex justify-content-center">
+            <button type="button" class="btn btn-secondary"><i class="fas fa-th"></i></button>
+            <button type="button" class="btn btn-secondary actions-b"><i class="fas fa-square"></i></button>
+        </div>
+    </div>
+</div>
+
+<!------------------------------------end Buttons-------------------------------------------------------------->
+<!------------------------------------------ Feed------------------------------------------------------------------------------->
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="space"></div>
+    </div>
+    <div class="row">
+        <div class="box d-flex justify-content-center">
+            <div class="post">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col d-flex justify-content-between">
+                            <h3> My first photo </h3>
+                        </div>
+                        <div class="col d-flex justify-content-end"><h3> 12/14 </h3></div>
+                    </div>
+                </div>    
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <img src="https://c.files.bbci.co.uk/48DD/production/_107435681_perro1.jpg"  width="100%" height="400px"  alt="">
+
+                        </div>
+                    </div>
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-sm-12"><h5>23 Likes...</h5></div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12"><p>El perro es uno de los animales domésticos más antiguos del mundo y el mejor amigo del hombre. Su domesticación comienza cuando apenas era un pariente salvaje de los actuales lobos</p></div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12"><i class="far fa-heart"></i>  Comment...</div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="space"></div>
+    </div>
+    <div class="row">
+        <div class="box d-flex justify-content-center">
+            <div class="post">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col d-flex justify-content-between">
+                            <h3> My first photo </h3>
+                        </div>
+                        <div class="col d-flex justify-content-end"><h3> 12/14 </h3></div>
+                    </div>
+                </div>    
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <img src="https://i2.wp.com/noticieros.televisa.com/wp-content/uploads/2020/03/nasa.jpg?resize=1080%2C610&ssl=1"  width="100%" height="400px"  alt="">
+
+                        </div>
+                    </div>
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-sm-12"><h5>23 Likes...</h5></div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12"><p>La nave espacial Crew Dragon de SpaceX llegó al Complejo de Lanzamiento Espacial 39A del Centro Espacial Kennedy el jueves 5 de Noviembre</p></div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12"><i class="far fa-heart"></i>  Comment...</div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="space"></div>
+    </div>
+    <div class="row">
+        <div class="box d-flex justify-content-center">
+            <div class="post">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col d-flex justify-content-between">
+                            <h3> My first photo </h3>
+                        </div>
+                        <div class="col d-flex justify-content-end"><h3> 12/14 </h3></div>
+                    </div>
+                </div>    
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <img src="https://www.tiposde.top/wp-content/uploads/2019/08/1.-Paisaje-f%C3%ADsico.jpg"  width="100%" height="400px"  alt="">
+
+                        </div>
+                    </div>
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-sm-12"><h5>23 Likes...</h5></div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12"><p>Un paisaje es parte de la superficie de la Tierra que puede ser visto en un momento dado desde un solo lugar. Consiste en los accidentes geográficos que marcan o son característicos de una zona determinada </p></div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12"><i class="far fa-heart"></i>  Comment...</div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="space"></div>
+    </div>
+    <div class="row">
+        <div class="box d-flex justify-content-center">
+            <div class="post">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col d-flex justify-content-between">
+                            <h3> My first photo </h3>
+                        </div>
+                        <div class="col d-flex justify-content-end"><h3> 12/14 </h3></div>
+                    </div>
+                </div>    
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <img src="https://www.fcbarcelonanoticias.com/uploads/s1/11/95/80/6/foto-de-equipo-del-fc-barcelona-slavia.jpeg"  width="100%" height="400px"  alt="">
+
+                        </div>
+                    </div>
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-sm-12"><h5>23 Likes...</h5></div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12"><p>El FC Barcelona trabaja en la planificación de la plantilla de la próxima temporada. La actual tiene 20 futbolistas, cada uno con una situación en particular</p></div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12"><i class="far fa-heart"></i>  Comment...</div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="space"></div>
+    </div>
+    <div class="row">
+        <div class="box d-flex justify-content-center">
+            <div class="post">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col d-flex justify-content-between">
+                            <h3> My first photo </h3>
+                        </div>
+                        <div class="col d-flex justify-content-end"><h3> 12/14 </h3></div>
+                    </div>
+                </div>    
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <img src="https://www.foronuclear.org/wp-content/uploads/2015/05/electricidad.jpg"  width="100%" height="400px"  alt="">
+
+                        </div>
+                    </div>
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-sm-12"><h5>23 Likes...</h5></div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12"><p>La electricidad es un conjunto de fenómenos producidos por el movimiento e interacción entre las cargas eléctricas positivas y negativas de los cuerpos físicos.</p></div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12"><i class="far fa-heart"></i>  Comment...</div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!------------------------------------end feed-------------------------------------------------------------->
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
