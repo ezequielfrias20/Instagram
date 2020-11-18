@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" type="text/css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/1ebe2caf91.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+</head>
+
+
+    <!----------------------------------Navbar--------------------------------------------------->
+<header>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-12">
+                    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top d-flex justify-content-around ">
+                        <div class="col-sm-4">
+                            <a class="navbar-brand font-inst" href="#"><i class="fab fa-instagram"></i> Instagram</a>
+                            <button class="navbar-toggler" type="button" data-toggle="collapse"
+                                data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                                aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                        </div>
+                        <!-----------------------------------modal------------------------------------------------------------------------------------ -->
+                        <div class="col-sm-4 d-flex justify-content-center">
+                            <div id="miModal" class="modal fade" tabindex="-1">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <form>
+                                                <div class="form-group">
+                                                    <textarea class="form-control" id="message-text"></textarea>
+                                                </div>
+                                            </form>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <div class="icons">
+                                                <button type="button" class="btn btn-outline-dark"><i
+                                                        class="fas fa-camera"></i></button>
+                                                <button type="button" class="btn btn-outline-dark"><i
+                                                        class="fas fa-map-marker-alt"></i></button>
+                                            </div>
+                                            <button type="button" class="btn btn-secondary"
+                                                data-dismiss="modal">Cancel</button>
+                                            <button type="button" class="btn btn-primary">Publish</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--------------------------------------------------------------------end Modal---------------------------------------------------------- -->
+                            <button type="button" class="btn btn-success" data-toggle="modal"
+                                data-target="#miModal" data-backdrop="false">Create a new post</button>
+                            <a class="nav-link dropdown-toggle color-settings "  href="#" id="navbarDropdown"
+                                role="button" data-toggle="dropdown"  aria-haspopup="true" aria-expanded="false">
+                                <i class="fas fa-cog"></i>
+                            </a>
+                            <div class="dropdown-menu " aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="#">Action</a>
+                                <a class="dropdown-item" href="#">Another action</a>
+                                <a class="dropdown-item" href="#">Another action</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#">Log Out</a>
+                            </div>
+                        </div>
+                </div>
+                </nav>
+            </div>
+        </div>
+        </div>
+</header>
+
+    <!------------------------------------end Navbar-------------------------------------------------------------->
+<body>
+    <!---------------------------------------Buttons--------------------------------------------------------------->
+    <div class="row">
+        <div class="space"></div>
+    </div>
+    <div class="row">
+        <div class="spaces"></div>
+    </div>
+     <div class="container-fluid">
+        <div class="row ">
+            <div class="col-sm-12 d-flex justify-content-center">
+                <button type="button" class="btn btn-secondary"><a href="index.html"></a><i
+                        class="fas fa-square"></a></i></button>
+                <button type="button" class="btn btn-secondary actions-b"><a href="#"><i
+                            class="fas fa-th"></a></i></button>
+            </div>
+        </div>
+    </div>
+    <!------------------------------------end Buttons-------------------------------------------------------------->
+
+
+    <!-------------------------------------------Feed 2 ------------------------------------------>
+    <div class="container-fluid sinpadding">
+        <div class="row">
+            <div class="col-sm-4 conpadding ">
+                <img src="https://aws.traveler.es/prod/designs/v1/assets/1000x667/21250.jpg" width="100%" height="250px"
+                    alt="">
+
+            </div>
+            <div class="col-sm-4 conpadding ">
+                <img src="https://i2.wp.com/noticieros.televisa.com/wp-content/uploads/2020/03/nasa.jpg?resize=1080%2C610&ssl=1"
+                    width="100%" height="250px" alt="">
+            </div>
+            <div class="col-sm-4 conpadding">
+                <img src="https://miviaje.com/wp-content/uploads/2018/04/salto-del-angel-venezuela.jpg" width="100%"
+                    height="250px" alt="">
+            </div>
+
+        </div>
+        <div class="row">
+            <div class="col-sm-4 conpadding ">
+                <img src="https://pirlutravel.com/wp-content/uploads/2018/12/brasil-mailing-1.jpg" width="100%"
+                    height="250px" alt="">
+
+            </div>
+            <div class="col-sm-4 conpadding ">
+                <img src="https://cdn2www.mundo.com/fotos/201609/irrea1.jpg" width="100%" height="250px" alt="">
+            </div>
+            <div class="col-sm-4 conpadding">
+                <img src="https://static.boredpanda.es/blog/wp-content/uploads/2015/09/fotos-reales-aparentemente-falsas-13.jpg"
+                    width="100%" height="250px" alt="">
+            </div>
+
+        </div>
+        <div class="row">
+            <div class="col-sm-4 conpadding ">
+                <img src="https://s.libertaddigital.com/fotos/noticias/planeta-sol-corot-7b.jpg" width="100%"
+                    height="250px" alt="">
+
+            </div>
+            <div class="col-sm-4 conpadding ">
+                <img src="https://www.65ymas.com/uploads/s1/28/71/7/localizaciones-juego-de-tronos-bardenas-reales.jpeg"
+                    width="100%" height="250px" alt="">
+            </div>
+            <div class="col-sm-4 conpadding">
+                <img src="https://s.france24.com/media/display/52ad605e-ee52-11ea-8528-005056bf87d6/w:1280/p:16x9/Brasil_reales.webp"
+                    width="100%" height="250px" alt="">
+            </div>
+
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!------------------------------------------END Feed 2 -------------------------------------------->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
